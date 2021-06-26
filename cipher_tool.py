@@ -38,8 +38,8 @@ def caesar_cipher(message, key):
     print(s)
 
 
-message = input("Enter the message which has to be encrypted or decrypted : ")
-operation = input("Enter the operation whether to be encrypt or decrypt : ")
+message = str(input("Enter the message which has to be encrypted or decrypted : "))
+operation = str(input("Enter the operation whether to be encrypt or decrypt : "))
 key = int(input("Enter the key value to shift the values : "))
 if operation == "encrypt" or operation == "ENCRYPT" or operation == "E" or operation == "e":
     caesar_cipher(message, key)
